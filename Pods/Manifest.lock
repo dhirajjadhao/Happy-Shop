@@ -1,0 +1,21 @@
+PODS:
+  - CCBottomRefreshControl (0.5.1):
+    - Masonry (~> 0.6.2)
+  - Masonry (0.6.4)
+  - Realm (0.98.8):
+    - Realm/Headers (= 0.98.8)
+  - Realm/Headers (0.98.8)
+  - SVProgressHUD (2.0.3)
+
+DEPENDENCIES:
+  - CCBottomRefreshControl
+  - Realm
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  CCBottomRefreshControl: 57a596348855260f627ffc2b311328ed15b94877
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  Realm: 0e293bb62999730599efc3048896bbd4f2e43bcd
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+
+COCOAPODS: 0.39.0

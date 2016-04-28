@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FE9A5964E8D16B98715979A /* libPods-Happy Shop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BD252764C5A8EC479C87CC /* libPods-Happy Shop.a */; };
+		FF5CD3A81CC3B35B003CB4C0 /* HomeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5CD3A71CC3B35B003CB4C0 /* HomeViewCell.m */; };
+		FFE6CC371CC2CCD800E11ED3 /* webService.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE6CC361CC2CCD800E11ED3 /* webService.m */; };
+		FFE6CC3E1CC3637700E11ED3 /* UIButton+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE6CC3B1CC3637700E11ED3 /* UIButton+Badge.m */; };
+		FFE6CC3F1CC3637700E11ED3 /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE6CC3D1CC3637700E11ED3 /* UIBarButtonItem+Badge.m */; };
+		FFE6CC431CC3665900E11ED3 /* RealmObjectClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE6CC421CC3665900E11ED3 /* RealmObjectClass.m */; };
+		FFE6CC471CC3674F00E11ED3 /* ProductCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE6CC461CC3674F00E11ED3 /* ProductCartViewController.m */; };
+		FFE6CC4C1CC367B600E11ED3 /* ProductCartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE6CC4B1CC367B600E11ED3 /* ProductCartCell.m */; };
+		FFE6CC4F1CC367C400E11ED3 /* ProductSummaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE6CC4E1CC367C400E11ED3 /* ProductSummaryCell.m */; };
+		FFF706D61CC202A4004A3E40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF706D51CC202A4004A3E40 /* main.m */; };
+		FFF706D91CC202A4004A3E40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF706D81CC202A4004A3E40 /* AppDelegate.m */; };
+		FFF706DF1CC202A4004A3E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF706DD1CC202A4004A3E40 /* Main.storyboard */; };
+		FFF706E11CC202A4004A3E40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF706E01CC202A4004A3E40 /* Assets.xcassets */; };
+		FFF706E41CC202A4004A3E40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF706E21CC202A4004A3E40 /* LaunchScreen.storyboard */; };
+		FFF706EE1CC202E8004A3E40 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF706ED1CC202E8004A3E40 /* HomeViewController.m */; };
+		FFF706F31CC209C4004A3E40 /* ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF706F21CC209C4004A3E40 /* ProductListViewController.m */; };
+		FFF706F71CC209E0004A3E40 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF706F61CC209E0004A3E40 /* ProductDetailViewController.m */; };
+		FFF706FB1CC20C5D004A3E40 /* ProductListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF706FA1CC20C5D004A3E40 /* ProductListCell.m */; };
+		FFF707231CC20ED6004A3E40 /* AFNetworkActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF706FE1CC20ED6004A3E40 /* AFNetworkActivityLogger.m */; };
+		FFF707241CC20ED6004A3E40 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF706FF1CC20ED6004A3E40 /* AFHTTPRequestOperation.m */; };
+		FFF707251CC20ED6004A3E40 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF707021CC20ED6004A3E40 /* AFHTTPRequestOperationManager.m */; };
+		FFF707261CC20ED6004A3E40 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF707041CC20ED6004A3E40 /* AFHTTPSessionManager.m */; };
+		FFF707271CC20ED6004A3E40 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF707051CC20ED6004A3E40 /* AFSecurityPolicy.m */; };
+		FFF707281CC20ED6004A3E40 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF707081CC20ED6004A3E40 /* AFNetworkReachabilityManager.m */; };
+		FFF707291CC20ED6004A3E40 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF7070B1CC20ED6004A3E40 /* AFURLConnectionOperation.m */; };
+		FFF7072A1CC20ED6004A3E40 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF7070D1CC20ED6004A3E40 /* AFURLRequestSerialization.m */; };
+		FFF7072B1CC20ED6004A3E40 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF7070F1CC20ED6004A3E40 /* AFURLResponseSerialization.m */; };
+		FFF7072C1CC20ED6004A3E40 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF707111CC20ED6004A3E40 /* AFURLSessionManager.m */; };
+		FFF7072D1CC20ED6004A3E40 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF707131CC20ED6004A3E40 /* AFNetworkActivityIndicatorManager.m */; };
+		FFF7072E1CC20ED6004A3E40 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF707151CC20ED6004A3E40 /* UIActivityIndicatorView+AFNetworking.m */; };
+		FFF7072F1CC20ED6004A3E40 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF707171CC20ED6004A3E40 /* UIAlertView+AFNetworking.m */; };
+		FFF707301CC20ED6004A3E40 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF707191CC20ED6004A3E40 /* UIButton+AFNetworking.m */; };
+		FFF707311CC20ED6004A3E40 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF7071B1CC20ED6004A3E40 /* UIImageView+AFNetworking.m */; };
+		FFF707321CC20ED6004A3E40 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF7071E1CC20ED6004A3E40 /* UIProgressView+AFNetworking.m */; };
+		FFF707331CC20ED6004A3E40 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF707201CC20ED6004A3E40 /* UIRefreshControl+AFNetworking.m */; };
+		FFF707341CC20ED6004A3E40 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF707221CC20ED6004A3E40 /* UIWebView+AFNetworking.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C63F8097CAB38DE35A540C9 /* Pods-Happy Shop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happy Shop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Happy Shop/Pods-Happy Shop.debug.xcconfig"; sourceTree = "<group>"; };
+		F20C4CA2BDB367140B8C91F2 /* Pods-Happy Shop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happy Shop.release.xcconfig"; path = "Pods/Target Support Files/Pods-Happy Shop/Pods-Happy Shop.release.xcconfig"; sourceTree = "<group>"; };
+		F7BD252764C5A8EC479C87CC /* libPods-Happy Shop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Happy Shop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5CD3A61CC3B35B003CB4C0 /* HomeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewCell.h; sourceTree = "<group>"; };
+		FF5CD3A71CC3B35B003CB4C0 /* HomeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewCell.m; sourceTree = "<group>"; };
+		FFE6CC351CC2CCD800E11ED3 /* webService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webService.h; sourceTree = "<group>"; };
+		FFE6CC361CC2CCD800E11ED3 /* webService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webService.m; sourceTree = "<group>"; };
+		FFE6CC381CC2CED000E11ED3 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		FFE6CC3A1CC3637700E11ED3 /* UIButton+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Badge.h"; sourceTree = "<group>"; };
+		FFE6CC3B1CC3637700E11ED3 /* UIButton+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Badge.m"; sourceTree = "<group>"; };
+		FFE6CC3C1CC3637700E11ED3 /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
+		FFE6CC3D1CC3637700E11ED3 /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
+		FFE6CC411CC3665900E11ED3 /* RealmObjectClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealmObjectClass.h; sourceTree = "<group>"; };
+		FFE6CC421CC3665900E11ED3 /* RealmObjectClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealmObjectClass.m; sourceTree = "<group>"; };
+		FFE6CC451CC3674F00E11ED3 /* ProductCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCartViewController.h; sourceTree = "<group>"; };
+		FFE6CC461CC3674F00E11ED3 /* ProductCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCartViewController.m; sourceTree = "<group>"; };
+		FFE6CC4A1CC367B600E11ED3 /* ProductCartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCartCell.h; sourceTree = "<group>"; };
+		FFE6CC4B1CC367B600E11ED3 /* ProductCartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCartCell.m; sourceTree = "<group>"; };
+		FFE6CC4D1CC367C400E11ED3 /* ProductSummaryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductSummaryCell.h; sourceTree = "<group>"; };
+		FFE6CC4E1CC367C400E11ED3 /* ProductSummaryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductSummaryCell.m; sourceTree = "<group>"; };
+		FFF706D11CC202A4004A3E40 /* Happy Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF706D51CC202A4004A3E40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFF706D71CC202A4004A3E40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFF706D81CC202A4004A3E40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFF706DE1CC202A4004A3E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFF706E01CC202A4004A3E40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFF706E31CC202A4004A3E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFF706E51CC202A4004A3E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF706EC1CC202E8004A3E40 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		FFF706ED1CC202E8004A3E40 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		FFF706F11CC209C4004A3E40 /* ProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListViewController.h; sourceTree = "<group>"; };
+		FFF706F21CC209C4004A3E40 /* ProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListViewController.m; sourceTree = "<group>"; };
+		FFF706F51CC209E0004A3E40 /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
+		FFF706F61CC209E0004A3E40 /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
+		FFF706F91CC20C5D004A3E40 /* ProductListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListCell.h; sourceTree = "<group>"; };
+		FFF706FA1CC20C5D004A3E40 /* ProductListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListCell.m; sourceTree = "<group>"; };
+		FFF706FD1CC20ED6004A3E40 /* AFNetworkActivityLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityLogger.h; sourceTree = "<group>"; };
+		FFF706FE1CC20ED6004A3E40 /* AFNetworkActivityLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityLogger.m; sourceTree = "<group>"; };
+		FFF706FF1CC20ED6004A3E40 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		FFF707001CC20ED6004A3E40 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		FFF707011CC20ED6004A3E40 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		FFF707021CC20ED6004A3E40 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		FFF707031CC20ED6004A3E40 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		FFF707041CC20ED6004A3E40 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		FFF707051CC20ED6004A3E40 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		FFF707061CC20ED6004A3E40 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		FFF707071CC20ED6004A3E40 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		FFF707081CC20ED6004A3E40 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		FFF707091CC20ED6004A3E40 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		FFF7070A1CC20ED6004A3E40 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		FFF7070B1CC20ED6004A3E40 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		FFF7070C1CC20ED6004A3E40 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		FFF7070D1CC20ED6004A3E40 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		FFF7070E1CC20ED6004A3E40 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		FFF7070F1CC20ED6004A3E40 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		FFF707101CC20ED6004A3E40 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		FFF707111CC20ED6004A3E40 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		FFF707121CC20ED6004A3E40 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		FFF707131CC20ED6004A3E40 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		FFF707141CC20ED6004A3E40 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		FFF707151CC20ED6004A3E40 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		FFF707161CC20ED6004A3E40 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		FFF707171CC20ED6004A3E40 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		FFF707181CC20ED6004A3E40 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		FFF707191CC20ED6004A3E40 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		FFF7071A1CC20ED6004A3E40 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		FFF7071B1CC20ED6004A3E40 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		FFF7071C1CC20ED6004A3E40 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		FFF7071D1CC20ED6004A3E40 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		FFF7071E1CC20ED6004A3E40 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		FFF7071F1CC20ED6004A3E40 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		FFF707201CC20ED6004A3E40 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		FFF707211CC20ED6004A3E40 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		FFF707221CC20ED6004A3E40 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFF706CE1CC202A4004A3E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE9A5964E8D16B98715979A /* libPods-Happy Shop.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2176FB391B99E1E66BE75DBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7BD252764C5A8EC479C87CC /* libPods-Happy Shop.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26E98CF5B62754AB544CE6FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C63F8097CAB38DE35A540C9 /* Pods-Happy Shop.debug.xcconfig */,
+				F20C4CA2BDB367140B8C91F2 /* Pods-Happy Shop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF5CD3A51CC3B33D003CB4C0 /* Home View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FF5CD3A61CC3B35B003CB4C0 /* HomeViewCell.h */,
+				FF5CD3A71CC3B35B003CB4C0 /* HomeViewCell.m */,
+			);
+			name = "Home View Cell";
+			sourceTree = "<group>";
+		};
+		FFE6CC341CC2695200E11ED3 /* Web Service */ = {
+			isa = PBXGroup;
+			children = (
+				FFE6CC351CC2CCD800E11ED3 /* webService.h */,
+				FFE6CC361CC2CCD800E11ED3 /* webService.m */,
+			);
+			name = "Web Service";
+			sourceTree = "<group>";
+		};
+		FFE6CC391CC3636A00E11ED3 /* Button Badge */ = {
+			isa = PBXGroup;
+			children = (
+				FFE6CC3A1CC3637700E11ED3 /* UIButton+Badge.h */,
+				FFE6CC3B1CC3637700E11ED3 /* UIButton+Badge.m */,
+				FFE6CC3C1CC3637700E11ED3 /* UIBarButtonItem+Badge.h */,
+				FFE6CC3D1CC3637700E11ED3 /* UIBarButtonItem+Badge.m */,
+			);
+			name = "Button Badge";
+			sourceTree = "<group>";
+		};
+		FFE6CC401CC3663F00E11ED3 /* Realm Object Class */ = {
+			isa = PBXGroup;
+			children = (
+				FFE6CC411CC3665900E11ED3 /* RealmObjectClass.h */,
+				FFE6CC421CC3665900E11ED3 /* RealmObjectClass.m */,
+			);
+			name = "Realm Object Class";
+			sourceTree = "<group>";
+		};
+		FFE6CC441CC3672B00E11ED3 /* Product Cart View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FFE6CC451CC3674F00E11ED3 /* ProductCartViewController.h */,
+				FFE6CC461CC3674F00E11ED3 /* ProductCartViewController.m */,
+				FFE6CC481CC3677400E11ED3 /* Product Cart Cell */,
+				FFE6CC491CC3677C00E11ED3 /* Product Summary Cell */,
+			);
+			name = "Product Cart View Controller";
+			sourceTree = "<group>";
+		};
+		FFE6CC481CC3677400E11ED3 /* Product Cart Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FFE6CC4A1CC367B600E11ED3 /* ProductCartCell.h */,
+				FFE6CC4B1CC367B600E11ED3 /* ProductCartCell.m */,
+			);
+			name = "Product Cart Cell";
+			sourceTree = "<group>";
+		};
+		FFE6CC491CC3677C00E11ED3 /* Product Summary Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FFE6CC4D1CC367C400E11ED3 /* ProductSummaryCell.h */,
+				FFE6CC4E1CC367C400E11ED3 /* ProductSummaryCell.m */,
+			);
+			name = "Product Summary Cell";
+			sourceTree = "<group>";
+		};
+		FFF706C81CC202A4004A3E40 = {
+			isa = PBXGroup;
+			children = (
+				FFF706D31CC202A4004A3E40 /* Happy Shop */,
+				FFF706FC1CC20E84004A3E40 /* Supporting Classes */,
+				FFF706D21CC202A4004A3E40 /* Products */,
+				26E98CF5B62754AB544CE6FD /* Pods */,
+				2176FB391B99E1E66BE75DBF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFF706D21CC202A4004A3E40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFF706D11CC202A4004A3E40 /* Happy Shop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF706D31CC202A4004A3E40 /* Happy Shop */ = {
+			isa = PBXGroup;
+			children = (
+				FFE6CC381CC2CED000E11ED3 /* Constants.h */,
+				FFF706DD1CC202A4004A3E40 /* Main.storyboard */,
+				FFF706EF1CC202EC004A3E40 /* App Delegate */,
+				FFF706EB1CC202C3004A3E40 /* Home View Controller */,
+				FFF706F01CC208BC004A3E40 /* Product List View Controller */,
+				FFF706F41CC209C6004A3E40 /* Product Detail View Controller */,
+				FFE6CC441CC3672B00E11ED3 /* Product Cart View Controller */,
+				FFE6CC401CC3663F00E11ED3 /* Realm Object Class */,
+				FFF706E01CC202A4004A3E40 /* Assets.xcassets */,
+				FFF706E21CC202A4004A3E40 /* LaunchScreen.storyboard */,
+				FFF706E51CC202A4004A3E40 /* Info.plist */,
+				FFF706D41CC202A4004A3E40 /* Supporting Files */,
+			);
+			path = "Happy Shop";
+			sourceTree = "<group>";
+		};
+		FFF706D41CC202A4004A3E40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFF706D51CC202A4004A3E40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFF706EB1CC202C3004A3E40 /* Home View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF5CD3A51CC3B33D003CB4C0 /* Home View Cell */,
+				FFF706EC1CC202E8004A3E40 /* HomeViewController.h */,
+				FFF706ED1CC202E8004A3E40 /* HomeViewController.m */,
+			);
+			name = "Home View Controller";
+			sourceTree = "<group>";
+		};
+		FFF706EF1CC202EC004A3E40 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				FFF706D71CC202A4004A3E40 /* AppDelegate.h */,
+				FFF706D81CC202A4004A3E40 /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		FFF706F01CC208BC004A3E40 /* Product List View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FFF706F11CC209C4004A3E40 /* ProductListViewController.h */,
+				FFF706F21CC209C4004A3E40 /* ProductListViewController.m */,
+				FFF706F81CC20B1A004A3E40 /* Product List Cell */,
+			);
+			name = "Product List View Controller";
+			sourceTree = "<group>";
+		};
+		FFF706F41CC209C6004A3E40 /* Product Detail View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FFF706F51CC209E0004A3E40 /* ProductDetailViewController.h */,
+				FFF706F61CC209E0004A3E40 /* ProductDetailViewController.m */,
+			);
+			name = "Product Detail View Controller";
+			sourceTree = "<group>";
+		};
+		FFF706F81CC20B1A004A3E40 /* Product List Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FFF706F91CC20C5D004A3E40 /* ProductListCell.h */,
+				FFF706FA1CC20C5D004A3E40 /* ProductListCell.m */,
+			);
+			name = "Product List Cell";
+			sourceTree = "<group>";
+		};
+		FFF706FC1CC20E84004A3E40 /* Supporting Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FFE6CC391CC3636A00E11ED3 /* Button Badge */,
+				FFE6CC341CC2695200E11ED3 /* Web Service */,
+				FFF707351CC20EDC004A3E40 /* AFNetworking */,
+			);
+			name = "Supporting Classes";
+			path = "Happy Shop";
+			sourceTree = "<group>";
+		};
+		FFF707351CC20EDC004A3E40 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				FFF706FD1CC20ED6004A3E40 /* AFNetworkActivityLogger.h */,
+				FFF706FE1CC20ED6004A3E40 /* AFNetworkActivityLogger.m */,
+				FFF706FF1CC20ED6004A3E40 /* AFHTTPRequestOperation.m */,
+				FFF707001CC20ED6004A3E40 /* AFHTTPRequestOperation.h */,
+				FFF707011CC20ED6004A3E40 /* AFHTTPRequestOperationManager.h */,
+				FFF707021CC20ED6004A3E40 /* AFHTTPRequestOperationManager.m */,
+				FFF707031CC20ED6004A3E40 /* AFHTTPSessionManager.h */,
+				FFF707041CC20ED6004A3E40 /* AFHTTPSessionManager.m */,
+				FFF707051CC20ED6004A3E40 /* AFSecurityPolicy.m */,
+				FFF707061CC20ED6004A3E40 /* AFNetworking.h */,
+				FFF707071CC20ED6004A3E40 /* AFNetworkReachabilityManager.h */,
+				FFF707081CC20ED6004A3E40 /* AFNetworkReachabilityManager.m */,
+				FFF707091CC20ED6004A3E40 /* AFSecurityPolicy.h */,
+				FFF7070A1CC20ED6004A3E40 /* AFURLConnectionOperation.h */,
+				FFF7070B1CC20ED6004A3E40 /* AFURLConnectionOperation.m */,
+				FFF7070C1CC20ED6004A3E40 /* AFURLRequestSerialization.h */,
+				FFF7070D1CC20ED6004A3E40 /* AFURLRequestSerialization.m */,
+				FFF7070E1CC20ED6004A3E40 /* AFURLResponseSerialization.h */,
+				FFF7070F1CC20ED6004A3E40 /* AFURLResponseSerialization.m */,
+				FFF707101CC20ED6004A3E40 /* AFURLSessionManager.h */,
+				FFF707111CC20ED6004A3E40 /* AFURLSessionManager.m */,
+				FFF707121CC20ED6004A3E40 /* AFNetworkActivityIndicatorManager.h */,
+				FFF707131CC20ED6004A3E40 /* AFNetworkActivityIndicatorManager.m */,
+				FFF707141CC20ED6004A3E40 /* UIActivityIndicatorView+AFNetworking.h */,
+				FFF707151CC20ED6004A3E40 /* UIActivityIndicatorView+AFNetworking.m */,
+				FFF707161CC20ED6004A3E40 /* UIAlertView+AFNetworking.h */,
+				FFF707171CC20ED6004A3E40 /* UIAlertView+AFNetworking.m */,
+				FFF707181CC20ED6004A3E40 /* UIButton+AFNetworking.h */,
+				FFF707191CC20ED6004A3E40 /* UIButton+AFNetworking.m */,
+				FFF7071A1CC20ED6004A3E40 /* UIImageView+AFNetworking.h */,
+				FFF7071B1CC20ED6004A3E40 /* UIImageView+AFNetworking.m */,
+				FFF7071C1CC20ED6004A3E40 /* UIKit+AFNetworking.h */,
+				FFF7071D1CC20ED6004A3E40 /* UIProgressView+AFNetworking.h */,
+				FFF7071E1CC20ED6004A3E40 /* UIProgressView+AFNetworking.m */,
+				FFF7071F1CC20ED6004A3E40 /* UIRefreshControl+AFNetworking.h */,
+				FFF707201CC20ED6004A3E40 /* UIRefreshControl+AFNetworking.m */,
+				FFF707211CC20ED6004A3E40 /* UIWebView+AFNetworking.h */,
+				FFF707221CC20ED6004A3E40 /* UIWebView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFF706D01CC202A4004A3E40 /* Happy Shop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF706E81CC202A4004A3E40 /* Build configuration list for PBXNativeTarget "Happy Shop" */;
+			buildPhases = (
+				5F81B176EE581F5A9B7890DF /* Check Pods Manifest.lock */,
+				FFF706CD1CC202A4004A3E40 /* Sources */,
+				FFF706CE1CC202A4004A3E40 /* Frameworks */,
+				FFF706CF1CC202A4004A3E40 /* Resources */,
+				6D740D40481ECC889CDA763C /* Embed Pods Frameworks */,
+				7EBCE99D15C4BEA6033E3455 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Happy Shop";
+			productName = "Happy Shop";
+			productReference = FFF706D11CC202A4004A3E40 /* Happy Shop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFF706C91CC202A4004A3E40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dhiraj Jadhao";
+				TargetAttributes = {
+					FFF706D01CC202A4004A3E40 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = DUXG8V348H;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FFF706CC1CC202A4004A3E40 /* Build configuration list for PBXProject "Happy Shop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFF706C81CC202A4004A3E40;
+			productRefGroup = FFF706D21CC202A4004A3E40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFF706D01CC202A4004A3E40 /* Happy Shop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFF706CF1CC202A4004A3E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF706E41CC202A4004A3E40 /* LaunchScreen.storyboard in Resources */,
+				FFF706E11CC202A4004A3E40 /* Assets.xcassets in Resources */,
+				FFF706DF1CC202A4004A3E40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F81B176EE581F5A9B7890DF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6D740D40481ECC889CDA763C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Happy Shop/Pods-Happy Shop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EBCE99D15C4BEA6033E3455 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Happy Shop/Pods-Happy Shop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFF706CD1CC202A4004A3E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF707331CC20ED6004A3E40 /* UIRefreshControl+AFNetworking.m in Sources */,
+				FFF707291CC20ED6004A3E40 /* AFURLConnectionOperation.m in Sources */,
+				FFF706D91CC202A4004A3E40 /* AppDelegate.m in Sources */,
+				FFF707321CC20ED6004A3E40 /* UIProgressView+AFNetworking.m in Sources */,
+				FFF706F71CC209E0004A3E40 /* ProductDetailViewController.m in Sources */,
+				FFF7072F1CC20ED6004A3E40 /* UIAlertView+AFNetworking.m in Sources */,
+				FFF706D61CC202A4004A3E40 /* main.m in Sources */,
+				FFE6CC431CC3665900E11ED3 /* RealmObjectClass.m in Sources */,
+				FFF7072B1CC20ED6004A3E40 /* AFURLResponseSerialization.m in Sources */,
+				FFF707301CC20ED6004A3E40 /* UIButton+AFNetworking.m in Sources */,
+				FFF706FB1CC20C5D004A3E40 /* ProductListCell.m in Sources */,
+				FFE6CC4C1CC367B600E11ED3 /* ProductCartCell.m in Sources */,
+				FFF7072E1CC20ED6004A3E40 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				FF5CD3A81CC3B35B003CB4C0 /* HomeViewCell.m in Sources */,
+				FFF7072A1CC20ED6004A3E40 /* AFURLRequestSerialization.m in Sources */,
+				FFF7072D1CC20ED6004A3E40 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				FFE6CC471CC3674F00E11ED3 /* ProductCartViewController.m in Sources */,
+				FFE6CC3E1CC3637700E11ED3 /* UIButton+Badge.m in Sources */,
+				FFE6CC371CC2CCD800E11ED3 /* webService.m in Sources */,
+				FFF707241CC20ED6004A3E40 /* AFHTTPRequestOperation.m in Sources */,
+				FFF707231CC20ED6004A3E40 /* AFNetworkActivityLogger.m in Sources */,
+				FFE6CC4F1CC367C400E11ED3 /* ProductSummaryCell.m in Sources */,
+				FFF7072C1CC20ED6004A3E40 /* AFURLSessionManager.m in Sources */,
+				FFF706F31CC209C4004A3E40 /* ProductListViewController.m in Sources */,
+				FFF707261CC20ED6004A3E40 /* AFHTTPSessionManager.m in Sources */,
+				FFF706EE1CC202E8004A3E40 /* HomeViewController.m in Sources */,
+				FFF707271CC20ED6004A3E40 /* AFSecurityPolicy.m in Sources */,
+				FFF707341CC20ED6004A3E40 /* UIWebView+AFNetworking.m in Sources */,
+				FFF707281CC20ED6004A3E40 /* AFNetworkReachabilityManager.m in Sources */,
+				FFE6CC3F1CC3637700E11ED3 /* UIBarButtonItem+Badge.m in Sources */,
+				FFF707311CC20ED6004A3E40 /* UIImageView+AFNetworking.m in Sources */,
+				FFF707251CC20ED6004A3E40 /* AFHTTPRequestOperationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFF706DD1CC202A4004A3E40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF706DE1CC202A4004A3E40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFF706E21CC202A4004A3E40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF706E31CC202A4004A3E40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFF706E61CC202A4004A3E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFF706E71CC202A4004A3E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFF706E91CC202A4004A3E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C63F8097CAB38DE35A540C9 /* Pods-Happy Shop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				INFOPLIST_FILE = "Happy Shop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dhiraj-Jadhao.Happy-Shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8fffb6a7-c683-46a4-8354-79a12520269c";
+			};
+			name = Debug;
+		};
+		FFF706EA1CC202A4004A3E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F20C4CA2BDB367140B8C91F2 /* Pods-Happy Shop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				INFOPLIST_FILE = "Happy Shop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dhiraj-Jadhao.Happy-Shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8fffb6a7-c683-46a4-8354-79a12520269c";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFF706CC1CC202A4004A3E40 /* Build configuration list for PBXProject "Happy Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF706E61CC202A4004A3E40 /* Debug */,
+				FFF706E71CC202A4004A3E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF706E81CC202A4004A3E40 /* Build configuration list for PBXNativeTarget "Happy Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF706E91CC202A4004A3E40 /* Debug */,
+				FFF706EA1CC202A4004A3E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFF706C91CC202A4004A3E40 /* Project object */;
+}
