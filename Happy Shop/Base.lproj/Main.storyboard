@@ -79,11 +79,23 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="H1x-Eh-RlC"/>
                                 </connections>
                             </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Happy Shop" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9QC-7u-aPf">
+                                <rect key="frame" x="224" y="566" width="153" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="ZYK-4s-4TT"/>
+                                    <constraint firstAttribute="width" constant="153" id="ldS-Xg-KVM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Qwv-Ol-5gD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5Uz-9Q-r4C"/>
+                            <constraint firstItem="9QC-7u-aPf" firstAttribute="centerX" secondItem="Qwv-Ol-5gD" secondAttribute="centerX" id="8ZP-i6-kRG"/>
                             <constraint firstItem="Qwv-Ol-5gD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="OIF-BP-wzI"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9QC-7u-aPf" secondAttribute="bottom" constant="6" id="ZiZ-Pg-g9L"/>
                             <constraint firstItem="Qwv-Ol-5gD" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="ahI-RR-WlF"/>
                             <constraint firstAttribute="trailing" secondItem="Qwv-Ol-5gD" secondAttribute="trailing" id="yXS-cW-Ipx"/>
                         </constraints>
@@ -769,7 +781,7 @@
         <image name="cart" width="64" height="100"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="wkK-Yo-lT4"/>
         <segue reference="FTM-6X-4PY"/>
-        <segue reference="fkb-ar-HTa"/>
     </inferredMetricsTieBreakers>
 </document>
